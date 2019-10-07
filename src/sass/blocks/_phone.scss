@@ -1,0 +1,22 @@
+.phone {
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__questions {
+        text-align: right;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__number {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.title {
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px;
+    &__delivery {
+        margin-bottom: 0;
+    }
+    &__agent {
+        color: #ffffff;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    &__sheme{
+        margin-bottom: 26px;
+    }
+    &__carousel {
+        margin-bottom: 0;
+    }
+    
+}

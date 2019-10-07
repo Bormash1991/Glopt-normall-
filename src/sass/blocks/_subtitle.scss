@@ -1,0 +1,17 @@
+.subtitle {
+    width: 879px;
+    color: #2e2e2e;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 17px;
+    text-align: center;
+    margin-bottom: 37px;
+    &__price {
+        margin-bottom: 34px;
+    }
+    &__carousel {
+        margin-bottom: 31px;
+    }
+}

@@ -1,0 +1,32 @@
+@import 'link/bootstrap-reboot.min';
+@import 'link/bootstrap-grid.min';
+@import 'link/slick';
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/phone';
+@import 'blocks/buttons';
+@import 'blocks/work';
+@import 'blocks/delivery';
+@import 'blocks/title';
+@import 'blocks/line';
+@import 'blocks/subtitle';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/feed-form';
+@import 'blocks/manager';
+@import 'blocks/sheme';
+@import 'blocks/wrapper';
+@import 'blocks/carusel';
+
+
+
+
+
+@import 'blocks/media';

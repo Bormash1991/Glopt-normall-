@@ -1,0 +1,133 @@
+// .carousel {
+//     position: relative;
+//     min-height: 480px;
+//     padding: 51px 254px 61px 254px;
+//     &__img {
+//         display: block;
+//         margin: 0 auto;
+//     }
+//     &__text {
+//         span {
+//         display: block;
+//         font-size: 18px;
+//         font-weight: 700;  
+//         margin: 19px 0 17px 0;
+//         }
+//         color: #3a3a3a;
+//         font-size: 14px;
+//         font-weight: 300;
+//         text-align: center;
+//     }
+//     .slick-active {
+//         width: 361px;
+//         height: 145px;
+//     }       
+//     .slick-arrow{
+//         display: block;
+//         position: absolute;
+//         top: 35px;
+//         border: none;
+//         background-color: #ffffff00;
+//         z-index: 20;
+//     }
+//     .slick-prev {
+//         left: 41%;
+//     }
+//     .slick-next{
+//         right: 41%;
+//     }
+    
+    
+// }
+.carousel {
+    position: relative;
+    min-height: 480px;
+    padding: 51px 18px 61px 18px;
+    &__text {
+        span {
+        display: block;
+        font-size: 18px;
+        font-weight: 700;  
+        margin: 19px 0 17px 0;
+        }
+        color:  #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .owl-carousel {
+        width: 1313px;
+        margin: 0 auto;
+        
+    }
+    .owl-item {
+        transition: 2s all;
+        // transition: 0.5s all;
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 114px;  
+        }
+    }
+    
+    .active {
+        
+        margin-top: 48px;
+        transform: rotate();
+        width: 345px !important;
+        height: 145px;
+        opacity: 0.3;
+        .carousel__img {
+            width: 70px;
+            height: 70px;
+        }
+        .carousel__text {
+            span {
+                margin: 14px 0 12px 0;
+                font-size: 12px;
+            }
+            font-size: 9px;
+        }
+    }
+    .center {
+        .owl-nav {
+            width: 100%;
+            .owl-prev {
+                left: 32%;
+            }
+            .owl-next {
+                right: 32%;
+            }
+        }
+        opacity: 1;
+        margin-top: 0;
+        width: 601px !important;
+        .carousel__img {
+            width: 114px; 
+            height: 114px; 
+        }
+        .carousel__text {
+            span {
+                margin: 19px 0 17px 0;
+                font-size: 18px;
+            }
+            font-size: 14px;
+        }
+    }
+    
+    .owl-prev {
+        position: absolute;
+        top: 35px;
+        background: url('../icons/arow.png') center center no-repeat ;
+        width: 35px;
+        height: 46px;
+        z-index: 20;
+    }
+    .owl-next {
+        position: absolute;
+        top: 35px;
+        background: url('../icons/next.png') center center no-repeat ;
+        width: 35px;
+        height: 46px;
+    }
+}

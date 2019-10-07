@@ -1,0 +1,28 @@
+.work {
+    min-height: 590px;
+    padding: 58px 0 21px 0;
+    background-color: #f3f3f3;
+    &__descr {
+        display: flex ;
+        align-items: flex-start;
+        margin-bottom: 36px;
+    }
+    &__item {
+        width: 409px;
+    }
+    &__img {
+        margin-right: 21px;
+    }
+    &_title {
+        line-height: 16px;
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        color: #3a3a3a;
+        margin-top: 10px;
+    }
+}
